@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Home from "./Home";
+// import Home from "./Home";
 import {BaseUrl} from "../constants";
 import axios from "axios";
 
@@ -55,7 +55,7 @@ function Register(props) {
 
     return (
         <div>
-            <Home/>
+            {/*<Home/>*/}
             <h1>Register</h1>
             <p>Username: <input type="text" onChange={usernameChangeHandler} /></p>
             <p>Email: <input type="email" onChange={emailChangeHandler} /></p>
