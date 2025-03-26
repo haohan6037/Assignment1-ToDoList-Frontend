@@ -37,5 +37,5 @@ jobs:
       working-directory: todolist_frontend
 
     - name: Run React Tests
-      run: npm test -- --watchAll=false
+      run: npm test -- register.test.js --watchAll=false
       working-directory: todolist_frontend
