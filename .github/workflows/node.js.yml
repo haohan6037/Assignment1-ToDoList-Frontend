@@ -29,7 +29,7 @@ jobs:
         # cache-dependency-path: todolist_frontend/package-lock.json
 
     - name: Install dependencies
-      run: npm ci
+      run: npm install
       working-directory: todolist_frontend
     - name: List react-router-dom module
       run: ls node_modules/react-router-dom
