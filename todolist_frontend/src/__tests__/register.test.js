@@ -1,10 +1,12 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Register from '../components/Register';
+import Home from '../components/Home';
 import { MemoryRouter } from 'react-router-dom';
 
 test('user can input username and email and password', () => {
    <MemoryRouter>
       <Register />
+       <Home />
     </MemoryRouter>
 
   const usernameInput = screen.getByLabelText(/username/i);
