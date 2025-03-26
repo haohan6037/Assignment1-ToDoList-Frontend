@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./components/Home";
 import Register from "./components/Register";
 import Login from "./components/Login";
-// import Logout from "./components/Logout";
+import Logout from "./components/Logout";
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
                     <Route path="/" element={<Home/>} />
                     <Route path="/register" element={<Register/>} />
                     <Route path="/login" element={<Login/>} />
-                    {/*<Route path="/logout" element={<Logout/>} />*/}
+                    <Route path="/logout" element={<Logout/>} />
                 </Routes>
             </BrowserRouter>
         </div>
