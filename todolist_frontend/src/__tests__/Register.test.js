@@ -10,13 +10,11 @@ jest.mock('axios');
 // 测试类
 describe('Register Component', () => {
 
-    // 清除每个测试后重置所有的模拟
     afterEach(() => {
         jest.clearAllMocks();
     });
 
     test('renders Register form', () => {
-        // 渲染组件
         render(
             <MemoryRouter initialEntries={['/']}>
                 <Register />
